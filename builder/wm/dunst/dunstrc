@@ -1,0 +1,63 @@
+[global]
+    monitor = 0
+    follow = mouse
+    width = 350
+    height = (0, 200)
+    origin = top-right
+    offset = (15, 15)
+    scale = 0
+    padding = 12
+    horizontal_padding = 14
+    text_icon_padding = 8
+    frame_width = 1
+    frame_color = "#cba6f7"
+    separator_color = frame
+    sort = yes
+    idle_threshold = 30
+    font = "Cascadia Code 10"
+    line_height = 4
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = yes
+    hide_duplicate_count = no
+    show_indicators = yes
+    icon_position = left
+    min_icon_size = 32
+    max_icon_size = 64
+    icon_path = /usr/share/icons/Papirus/16x16/apps/:/usr/share/icons/Papirus/16x16/devices/
+    sticky_history = yes
+    history_length = 20
+    browser = /usr/bin/zen-browser
+    always_run_script = true
+    corner_radius = 10
+    ignore_dbusclose = no
+    force_xwayland = false
+    title = Dunst
+    close = control+space
+    close_all = control+shift+space
+    history = control+grave
+    context = control+shift+period
+
+[urgency_low]
+    background = "#1e1e2e"
+    foreground = "#a6adc8"
+    timeout = 5
+    highlight = "#cba6f7"
+
+[urgency_normal]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    timeout = 7
+    highlight = "#89b4fa"
+
+[urgency_critical]
+    background = "#1e1e2e"
+    foreground = "#f38ba8"
+    timeout = 0
+    highlight = "#f38ba8"
+    frame_color = "#f38ba8"

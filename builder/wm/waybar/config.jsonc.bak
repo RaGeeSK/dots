@@ -1,0 +1,30 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 5,
+  "margin-left": 10,
+  "margin-right": 10,
+  "spacing": 4,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "hyprland/language", "tray"],
+
+  "hyprland/language": {
+    "format": "  {short}", // Покажет "EN" или "RU"
+    "on-click": "hyprctl switchxkblayout current next", // Переключит язык кликом
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "*": 5, // Показывает 5 рабочих столов на любом мониторе
+    },
+  },
+
+  "clock": {
+    "format": "  {:%H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  },
+}

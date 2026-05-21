@@ -1,0 +1,95 @@
+* {
+    font-family: "Cascadia Code NF", "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#language,
+#tray,
+#custom-arch,
+#custom-power {
+    background: #11111b;
+    color: #cdd6f4;
+    padding: 0px 8px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+#custom-arch {
+    font-size: 18px;
+    padding: 0px 10px;
+    color: #cba6f7;
+}
+
+#custom-arch:hover {
+    color: #f5c2e7;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    color: #585b70;
+}
+
+#workspaces button.active {
+    color: #cdd6f4;
+}
+
+#workspaces button:hover {
+    color: #89b4fa;
+}
+
+#clock {
+    color: #cdd6f4;
+}
+
+#cpu {
+    color: #89b4fa;
+}
+
+#memory {
+    color: #a6e3a1;
+}
+
+#language {
+    color: #fab387;
+}
+
+#tray,
+#custom-power {
+    padding: 0px 5px;
+}
+
+#custom-power {
+    color: #f38ba8;
+}
+
+#custom-power:hover {
+    color: #cdd6f4;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#cpu:hover,
+#memory:hover,
+#language:hover,
+#custom-power:hover {
+    background: #1a1622;
+}

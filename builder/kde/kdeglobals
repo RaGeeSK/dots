@@ -1,0 +1,8 @@
+[General]
+ColorScheme=Catppuccin-Mocha
+
+[KDE]
+widgetStyle=kvantum
+
+[Qt]
+style=kvantum

@@ -1,0 +1,54 @@
+* {
+    font-family: "Cascadia Code", "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+/* Общий стиль для всех "островков" */
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#language,
+#tray {
+    background: #191724;
+    color: #e0def4;
+    padding: 0px 6px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+/* Убираем лишние отступы у кнопок воркспейсов */
+#workspaces button {
+    padding: 0px 4px;
+    color: #908caa;
+}
+
+#workspaces button.active {
+    color: #ebbcba;
+}
+
+#language {
+    color: #f6c177;
+}
+
+/* Чтобы иконки трея не растягивали панель */
+#tray {
+    padding: 0px 5px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}

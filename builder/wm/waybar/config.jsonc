@@ -1,0 +1,56 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 5,
+  "margin-left": 10,
+  "margin-right": 10,
+  "spacing": 4,
+
+  "modules-left": ["custom/arch", "hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "cpu", "memory", "hyprland/language", "custom/power"],
+
+  "custom/arch": {
+    "format": "  ",
+    "tooltip": false,
+    "interval": "once",
+    "on-click": "/home/ragees/.local/bin/wofi-toggle"
+  },
+
+  "custom/power": {
+    "format": "  ",
+    "tooltip": false,
+    "interval": "once",
+    "on-click": "/home/ragees/.local/bin/powermenu"
+  },
+
+  "hyprland/language": {
+    "format": "  {short}",
+    "on-click": "hyprctl switchxkblayout current next",
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "*": 5,
+    },
+    "all-outputs": false,
+  },
+
+  "cpu": {
+    "format": "  {usage}%",
+    "tooltip": true,
+  },
+
+  "memory": {
+    "format": "  {}%",
+    "tooltip": true,
+  },
+
+  "clock": {
+    "format": "  {:%H:%M}",
+    "format-alt": "  {:%d/%m/%Y}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  },
+}

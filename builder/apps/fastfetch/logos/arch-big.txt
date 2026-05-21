@@ -1,0 +1,26 @@
+[38;2;203;166;247m                `.:/+ossyyyysso+/:.`[0m
+[38;2;137;180;250m            `:+syyyyyyyyyyyyyyyyyyys+:`[0m
+[38;2;137;220;235m         `:oyyyyyyyyyyyyyyyyyyyyyyyyyyo:`[0m
+[38;2;166;227;161m       `:syyyyyyyyyyyyyyyyyyyyyyyyyyyyyys:`[0m
+[38;2;249;226;175m     `/syyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyys/`[0m
+[38;2;250;179;135m    :yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy:[0m
+[38;2;243;139;168m  `oyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyo`[0m
+[38;2;245;194;231m  oyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyo[0m
+[38;2;203;166;247m /yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/[0m
+[38;2;137;180;250m oyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyo[0m
+[38;2;137;220;235m oyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyssoooooosyyyyyyyyyo[0m
+[38;2;166;227;161m`yyyyyyyyyyyyyyyyyyyyyyyyyysso:..      ..:+osyyyyyyy`[0m
+[38;2;249;226;175m`yyyyyyyyyyyyyyyyyyyyyysso/-.              .-/+osyyyy`[0m
+[38;2;250;179;135m oyyyyyyyyyyyyyyyyyysso/-.                     .-/+sy[0m
+[38;2;243;139;168m oyyyyyyyyyyyyyyyysso/-.                            .-[0m
+[38;2;245;194;231m`yyyyyyyyyyyyyysso/-.[0m
+[38;2;203;166;247m yyyyyyyyyyyyys+-[0m
+[38;2;137;180;250m`yyyyyyyyyyyyo-[0m
+[38;2;137;220;235m yyyyyyyyyys:[0m
+[38;2;166;227;161m`yyyyyyyyy+`[0m
+[38;2;249;226;175m oyyyyyyyo`[0m
+[38;2;250;179;135m`yyyyyys`[0m
+[38;2;243;139;168m yyyyyo`[0m
+[38;2;245;194;231m oyyy:[0m
+[38;2;203;166;247m -s+[0m
+[38;2;137;180;250m  /.[0m
